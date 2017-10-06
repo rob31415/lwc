@@ -1,0 +1,78 @@
+
+
+often used angular tags
+_____________
+ng-app, controller, model, change, init, hide, repeat 
+
+
+angular concepts
+_____________
+controller, components, service, module, directive, router, eventemitter, pipes, route guards, alternative rendering engines, change detection (push)
+
+
+concepts general
+_____________
+typescript, lazy loading, reactive, web components, web workers
+
+
+pattern
+_____________
+DI, observable/oberserver/subscriber
+
+
+tools
+_____________
+web pack, RxJS vs. redux, angular material 2, prime ng, yarn, ms code/webstorm, cli (scaffold, generate component, service, module, serving, bundling, generate unit tests & test runners)
+Protractor (automate ui; for angular)
+karma (automate angular services)
+cucumber
+selenium (automate ui; many lang bindings)
+jasmine
+gulp, bower
+express, lodash
+transpiler (Traceur, Babel, Rollup, and Webpack)
+js 16
+
+
+JS module formats (CommonJS, UMD, AMD, ES6)
+_____________
+
+commonjs
+
+for server-side. "The CommonJS require() is a synchronous call, it is expected to return the module immediately. This does not work well in the browser."
+
+// someModule.js
+exports.doSomething = function() { return "foo"; };
+// anotherModule.js
+var someModule = require('someModule');
+
+implementations: browserify (commonjs for browsers)
+
+
+amd (Asynchronous Module Definition)
+
+for browser-side.
+
+// usage
+require(["package/myModule"], function(myModule) {
+    myModule.foobar();
+    
+    // export (expose) foo to other modules as foobar
+    return {
+        foobar: function() {return "bla";}
+    }
+});
+
+implementations: requirejs
+
+
+es6 style
+
+import defaultMember from "module-name";
+export { myFunction }; 
+
+
+rxjs - declarative dataflow with functional programming like composition (e.g. iteration factored out)
+flux - like choreography from soa, just loosly coupled components with an event broadcast bus between them; drawback: you don't clearly see the higher level program flow from the code, just a bunch of actions and dispatches of actions 
+redux - event sourcing for the model, just a technicality to make flux better
+jsx - js+xml

@@ -1,0 +1,63 @@
+
+backend frameworks/libs: PHP, django, rails, nodejs
+frontend frameworks/libs: html5, Aurelia, VueJS, Knockout, Ember, Polymer, React/Flux, jQuery, AngularJS, Angular4
+full stack: Meteor, electron
+sane stack: sailsjs, a?, nodejs, emberjs
+mean stack: mongodb, expressjs, angularjs, nodejs
+https://stackshare.io/stackups/mean-vs-sane-stack-vs-phoenix-framework
+
+criteria: community/future, size, repaint speed, SOC, licencing, real world usage, what's the *unique selling point* of a particular framework?
+
+what are common features of web frameworks/what do they actually do: for single page/spa, mvc, routing, orm, form validation, pull-based/component based, push-based, templating, caching, sign up/on, authentication, authorization, scaffolding, url mapping, i18n, unit testing, webcomponent compatible, ecma version/js-dialect, data binding & update method, create desktop app
+
+js libs: jquery, sass, corejs, lodash, handlebars, systemjs
+
+taskrunners: gulp, grunt, babel, linting, unit testing
+
+ides: webstorm, vs code
+
+development environment/deployment: docker, vagrant, gitlab
+
+langs: ecmascript 6/2015 7/2016, typescript, swift, go, java 8, rust, elixir, php, smalltalk
+
+electron: https://www.youtube.com/watch?v=WVb2OD49pUA , https://github.com/electron/electron-api-demos
+
+rest:
+https://restful-api-design.readthedocs.io/en/latest/
+https://www.heise.de/developer/artikel/Hoechster-Reifegrad-fuer-REST-mit-HATEOAS-3550392.html
+rest with php, django, rails, nodejs: ....?
+rest with swagger: https://www.heise.de/developer/artikel/REST-APIs-mit-Node-js-und-Swagger-3820025.html
+
+php: http://us3.php.net/manual/en/ , http://www.phptherightway.com/ , https://symfony.com/components , codeigniter , http://bisqwit.iki.fi/story/howto/php/ , https://www.youtube.com/watch?v=h2Nq0qv0K8M
+
+Bootstrap: https://bootstrapstudio.io/ , http://www.w3schools.com/bootstrap/bootstrap_grid_system.asp (see examples below)
+
+aurelia: https://www.youtube.com/watch?v=fi33aDFKvxE
+
+vuejs: https://www.youtube.com/watch?v=PQyzkc8DdGE
+
+js: http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know ,  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript , https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html , https://tc39.github.io/ecma262/ , https://www.youtube.com/watch?v=yXJtrxVZmT4
+
+typescript: http://www.typescriptlang.org/docs/handbook/basic-types.html , https://www.typescriptlang.org/docs/handbook/jsx.html
+
+redux: https://www.youtube.com/watch?v=eTSQCy0644g
+react: https://facebook.github.io/react/tutorial/tutorial.html
+
+dynamo: http://miguelcamba.com/blog/2013/04/29/tutorial-build-a-web-app-using-elixir-and-dynamo-with-streaming-and-concurrency/
+
+babel: https://babeljs.io/ , an ECMAScript 6 to ECMAScript 5 transpiler
+
+meteor: https://www.youtube.com/user/MeteorVideos
+
+some online course sites:
+hackerrank.com, pluralsight.com, lynda.com, coursera.org, codility.com, nodeschool.io
+
+https://www.quora.com/profile/Pete-Hunt/Posts/Facebooks-React-vs-AngularJS-A-Closer-Look
+https://www.youtube.com/watch?v=gkbZ1LpWQB4
+https://www.youtube.com/watch?v=Xt5qpbiqw2g
+https://www.youtube.com/watch?v=6Fg3Aj9GzNw
+https://www.youtube.com/watch?v=GMWAHzXQnNM
+https://www.youtube.com/watch?v=2pL28CcEijU
+https://www.youtube.com/watch?v=U5SSASv_7ng
+https://envato.com
+https://www.youtube.com/watch?v=RdE-d_EhzmA David West OOP is Dead! Long Live OODD!
